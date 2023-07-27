@@ -29,7 +29,7 @@ export default defineManifest({
   web_accessible_resources: [
     {
       resources: ['img/logo-16.png', 'img/logo-34.png', 'img/logo-48.png', 'img/logo-128.png', 'src/styles/output.css'],
-      matches: [],
+      matches: ['<all_urls>'],
       use_dynamic_url: true,
     },
   ],
